@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class gestorPelicula extends pelicula {
-    //Lista
+    //Crea la lista inicial de películas
 
     List<List<String>> list = new ArrayList<List<String>>();
 
