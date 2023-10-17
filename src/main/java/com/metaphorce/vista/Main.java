@@ -71,6 +71,5 @@ public class Main {
                 // Default secuencia de sentencias.
         }
 
-        System.out.println("Hello world!");
     }
 }
