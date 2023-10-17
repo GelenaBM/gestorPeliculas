@@ -23,22 +23,22 @@ public class Main {
 
         switch (opc) {
             case 1:
-                // secuencia de sentencias.
+                // Lista las películas.
                 System.out.println("Lista de películas");
                 miPelicula.obtenerPeliculas();
                 break;
             case 2:
-                // secuencia de sentencias.
+                // Lista solo las películas disponibles.
                 System.out.println("2: Peliculas disponibles");
                 miPelicula.obtenerPeliculasDisponibles();
                 break;
             case 3:
-                // secuencia de sentencias.
+               // Lista solo las películas no disponibles.
                 System.out.println("3: Peliculas no disponibles");
                 miPelicula.obtenerPeliculasNoDisponibles();
                 break;
             case 4:
-                // secuencia de sentencias.
+                // Cambia la película selecionada no disponible a disponible.
                 System.out.println("4: Marcar peliculas como disponibles");
                 miPelicula.obtenerPeliculasNoDisponibles();
                 System.out.println("Seleccione el id de la pelicula a modificar su disponibilidad");
@@ -47,7 +47,7 @@ public class Main {
 
                 break;
             case 5:
-                // secuencia de sentencias.1
+                // Agrega una pelicula
                 System.out.println("5: Agregar película");
                 System.out.println("Nombre de la pelicula a agregar");
                 Scanner entradaEscaner = new Scanner (System.in); //Creación de un objeto Scanner
@@ -59,7 +59,7 @@ public class Main {
                 miPelicula.agregarPelicula(addNombre, addDisponibilidad);
                 break;
             case 6:
-                // secuencia de sentencias.
+                // Elimina la pelicula selecionada.
                 System.out.println("6: Eliminar película");
                 miPelicula.obtenerPeliculas();
                 System.out.println("Seleccione el id de la pelicula a eliminar");
